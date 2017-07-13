@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74237CCD1D95155100AF56CD /* SquaredUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74237CCC1D95155100AF56CD /* SquaredUpView.m */; };
+		74E63ECA1D7572AC0006975E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E63EC91D7572AC0006975E /* main.m */; };
+		74E63ECD1D7572AC0006975E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E63ECC1D7572AC0006975E /* AppDelegate.m */; };
+		74E63ED01D7572AC0006975E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E63ECF1D7572AC0006975E /* ViewController.m */; };
+		74E63ED31D7572AC0006975E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E63ED11D7572AC0006975E /* Main.storyboard */; };
+		74E63ED51D7572AC0006975E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E63ED41D7572AC0006975E /* Assets.xcassets */; };
+		74E63ED81D7572AC0006975E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E63ED61D7572AC0006975E /* LaunchScreen.storyboard */; };
+		74E63EE31D7572AC0006975E /* CopyAliapySquaredUpViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E63EE21D7572AC0006975E /* CopyAliapySquaredUpViewTests.m */; };
+		74E63EEE1D7572AC0006975E /* CopyAliapySquaredUpViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E63EED1D7572AC0006975E /* CopyAliapySquaredUpViewUITests.m */; };
+		74E63F001D7572ED0006975E /* SquareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E63EFE1D7572ED0006975E /* SquareView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74E63EDF1D7572AC0006975E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74E63EBD1D7572AC0006975E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74E63EC41D7572AC0006975E;
+			remoteInfo = CopyAliapySquaredUpView;
+		};
+		74E63EEA1D7572AC0006975E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74E63EBD1D7572AC0006975E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74E63EC41D7572AC0006975E;
+			remoteInfo = CopyAliapySquaredUpView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74237CCB1D95155100AF56CD /* SquaredUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquaredUpView.h; sourceTree = "<group>"; };
+		74237CCC1D95155100AF56CD /* SquaredUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquaredUpView.m; sourceTree = "<group>"; };
+		74E63EC51D7572AC0006975E /* CopyAliapySquaredUpView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopyAliapySquaredUpView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E63EC91D7572AC0006975E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74E63ECB1D7572AC0006975E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74E63ECC1D7572AC0006975E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74E63ECE1D7572AC0006975E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		74E63ECF1D7572AC0006975E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74E63ED21D7572AC0006975E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74E63ED41D7572AC0006975E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74E63ED71D7572AC0006975E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74E63ED91D7572AC0006975E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E63EDE1D7572AC0006975E /* CopyAliapySquaredUpViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopyAliapySquaredUpViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E63EE21D7572AC0006975E /* CopyAliapySquaredUpViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyAliapySquaredUpViewTests.m; sourceTree = "<group>"; };
+		74E63EE41D7572AC0006975E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E63EE91D7572AC0006975E /* CopyAliapySquaredUpViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopyAliapySquaredUpViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E63EED1D7572AC0006975E /* CopyAliapySquaredUpViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyAliapySquaredUpViewUITests.m; sourceTree = "<group>"; };
+		74E63EEF1D7572AC0006975E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E63EFD1D7572ED0006975E /* SquareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareView.h; sourceTree = "<group>"; };
+		74E63EFE1D7572ED0006975E /* SquareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74E63EC21D7572AC0006975E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E63EDB1D7572AC0006975E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E63EE61D7572AC0006975E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74E63EBC1D7572AC0006975E = {
+			isa = PBXGroup;
+			children = (
+				74E63EC71D7572AC0006975E /* CopyAliapySquaredUpView */,
+				74E63EE11D7572AC0006975E /* CopyAliapySquaredUpViewTests */,
+				74E63EEC1D7572AC0006975E /* CopyAliapySquaredUpViewUITests */,
+				74E63EC61D7572AC0006975E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74E63EC61D7572AC0006975E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74E63EC51D7572AC0006975E /* CopyAliapySquaredUpView.app */,
+				74E63EDE1D7572AC0006975E /* CopyAliapySquaredUpViewTests.xctest */,
+				74E63EE91D7572AC0006975E /* CopyAliapySquaredUpViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74E63EC71D7572AC0006975E /* CopyAliapySquaredUpView */ = {
+			isa = PBXGroup;
+			children = (
+				74E63ECB1D7572AC0006975E /* AppDelegate.h */,
+				74E63ECC1D7572AC0006975E /* AppDelegate.m */,
+				74E63ECE1D7572AC0006975E /* ViewController.h */,
+				74E63ECF1D7572AC0006975E /* ViewController.m */,
+				74237CCB1D95155100AF56CD /* SquaredUpView.h */,
+				74237CCC1D95155100AF56CD /* SquaredUpView.m */,
+				74E63EFD1D7572ED0006975E /* SquareView.h */,
+				74E63EFE1D7572ED0006975E /* SquareView.m */,
+				74E63ED11D7572AC0006975E /* Main.storyboard */,
+				74E63ED41D7572AC0006975E /* Assets.xcassets */,
+				74E63ED61D7572AC0006975E /* LaunchScreen.storyboard */,
+				74E63ED91D7572AC0006975E /* Info.plist */,
+				74E63EC81D7572AC0006975E /* Supporting Files */,
+			);
+			path = CopyAliapySquaredUpView;
+			sourceTree = "<group>";
+		};
+		74E63EC81D7572AC0006975E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74E63EC91D7572AC0006975E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74E63EE11D7572AC0006975E /* CopyAliapySquaredUpViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				74E63EE21D7572AC0006975E /* CopyAliapySquaredUpViewTests.m */,
+				74E63EE41D7572AC0006975E /* Info.plist */,
+			);
+			path = CopyAliapySquaredUpViewTests;
+			sourceTree = "<group>";
+		};
+		74E63EEC1D7572AC0006975E /* CopyAliapySquaredUpViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74E63EED1D7572AC0006975E /* CopyAliapySquaredUpViewUITests.m */,
+				74E63EEF1D7572AC0006975E /* Info.plist */,
+			);
+			path = CopyAliapySquaredUpViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74E63EC41D7572AC0006975E /* CopyAliapySquaredUpView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E63EF21D7572AC0006975E /* Build configuration list for PBXNativeTarget "CopyAliapySquaredUpView" */;
+			buildPhases = (
+				74E63EC11D7572AC0006975E /* Sources */,
+				74E63EC21D7572AC0006975E /* Frameworks */,
+				74E63EC31D7572AC0006975E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CopyAliapySquaredUpView;
+			productName = CopyAliapySquaredUpView;
+			productReference = 74E63EC51D7572AC0006975E /* CopyAliapySquaredUpView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74E63EDD1D7572AC0006975E /* CopyAliapySquaredUpViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E63EF51D7572AC0006975E /* Build configuration list for PBXNativeTarget "CopyAliapySquaredUpViewTests" */;
+			buildPhases = (
+				74E63EDA1D7572AC0006975E /* Sources */,
+				74E63EDB1D7572AC0006975E /* Frameworks */,
+				74E63EDC1D7572AC0006975E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74E63EE01D7572AC0006975E /* PBXTargetDependency */,
+			);
+			name = CopyAliapySquaredUpViewTests;
+			productName = CopyAliapySquaredUpViewTests;
+			productReference = 74E63EDE1D7572AC0006975E /* CopyAliapySquaredUpViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74E63EE81D7572AC0006975E /* CopyAliapySquaredUpViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E63EF81D7572AC0006975E /* Build configuration list for PBXNativeTarget "CopyAliapySquaredUpViewUITests" */;
+			buildPhases = (
+				74E63EE51D7572AC0006975E /* Sources */,
+				74E63EE61D7572AC0006975E /* Frameworks */,
+				74E63EE71D7572AC0006975E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74E63EEB1D7572AC0006975E /* PBXTargetDependency */,
+			);
+			name = CopyAliapySquaredUpViewUITests;
+			productName = CopyAliapySquaredUpViewUITests;
+			productReference = 74E63EE91D7572AC0006975E /* CopyAliapySquaredUpViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74E63EBD1D7572AC0006975E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = WangShengKui;
+				TargetAttributes = {
+					74E63EC41D7572AC0006975E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					74E63EDD1D7572AC0006975E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 74E63EC41D7572AC0006975E;
+					};
+					74E63EE81D7572AC0006975E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 74E63EC41D7572AC0006975E;
+					};
+				};
+			};
+			buildConfigurationList = 74E63EC01D7572AC0006975E /* Build configuration list for PBXProject "CopyAliapySquaredUpView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74E63EBC1D7572AC0006975E;
+			productRefGroup = 74E63EC61D7572AC0006975E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74E63EC41D7572AC0006975E /* CopyAliapySquaredUpView */,
+				74E63EDD1D7572AC0006975E /* CopyAliapySquaredUpViewTests */,
+				74E63EE81D7572AC0006975E /* CopyAliapySquaredUpViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74E63EC31D7572AC0006975E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E63ED81D7572AC0006975E /* LaunchScreen.storyboard in Resources */,
+				74E63ED51D7572AC0006975E /* Assets.xcassets in Resources */,
+				74E63ED31D7572AC0006975E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E63EDC1D7572AC0006975E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E63EE71D7572AC0006975E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74E63EC11D7572AC0006975E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74237CCD1D95155100AF56CD /* SquaredUpView.m in Sources */,
+				74E63ED01D7572AC0006975E /* ViewController.m in Sources */,
+				74E63F001D7572ED0006975E /* SquareView.m in Sources */,
+				74E63ECD1D7572AC0006975E /* AppDelegate.m in Sources */,
+				74E63ECA1D7572AC0006975E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E63EDA1D7572AC0006975E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E63EE31D7572AC0006975E /* CopyAliapySquaredUpViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E63EE51D7572AC0006975E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E63EEE1D7572AC0006975E /* CopyAliapySquaredUpViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74E63EE01D7572AC0006975E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74E63EC41D7572AC0006975E /* CopyAliapySquaredUpView */;
+			targetProxy = 74E63EDF1D7572AC0006975E /* PBXContainerItemProxy */;
+		};
+		74E63EEB1D7572AC0006975E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74E63EC41D7572AC0006975E /* CopyAliapySquaredUpView */;
+			targetProxy = 74E63EEA1D7572AC0006975E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74E63ED11D7572AC0006975E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E63ED21D7572AC0006975E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74E63ED61D7572AC0006975E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E63ED71D7572AC0006975E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74E63EF01D7572AC0006975E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74E63EF11D7572AC0006975E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74E63EF31D7572AC0006975E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CopyAliapySquaredUpView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangsk.CopyAliapySquaredUpView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74E63EF41D7572AC0006975E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CopyAliapySquaredUpView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangsk.CopyAliapySquaredUpView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		74E63EF61D7572AC0006975E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CopyAliapySquaredUpViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.370929280.CopyAliapySquaredUpViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CopyAliapySquaredUpView.app/CopyAliapySquaredUpView";
+			};
+			name = Debug;
+		};
+		74E63EF71D7572AC0006975E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CopyAliapySquaredUpViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.370929280.CopyAliapySquaredUpViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CopyAliapySquaredUpView.app/CopyAliapySquaredUpView";
+			};
+			name = Release;
+		};
+		74E63EF91D7572AC0006975E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CopyAliapySquaredUpViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.370929280.CopyAliapySquaredUpViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CopyAliapySquaredUpView;
+			};
+			name = Debug;
+		};
+		74E63EFA1D7572AC0006975E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CopyAliapySquaredUpViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.370929280.CopyAliapySquaredUpViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CopyAliapySquaredUpView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74E63EC01D7572AC0006975E /* Build configuration list for PBXProject "CopyAliapySquaredUpView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E63EF01D7572AC0006975E /* Debug */,
+				74E63EF11D7572AC0006975E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E63EF21D7572AC0006975E /* Build configuration list for PBXNativeTarget "CopyAliapySquaredUpView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E63EF31D7572AC0006975E /* Debug */,
+				74E63EF41D7572AC0006975E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E63EF51D7572AC0006975E /* Build configuration list for PBXNativeTarget "CopyAliapySquaredUpViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E63EF61D7572AC0006975E /* Debug */,
+				74E63EF71D7572AC0006975E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E63EF81D7572AC0006975E /* Build configuration list for PBXNativeTarget "CopyAliapySquaredUpViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E63EF91D7572AC0006975E /* Debug */,
+				74E63EFA1D7572AC0006975E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74E63EBD1D7572AC0006975E /* Project object */;
+}
